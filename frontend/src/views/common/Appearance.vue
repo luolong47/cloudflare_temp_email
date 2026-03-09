@@ -61,8 +61,8 @@ const { t } = useI18n({
                 }" />
             </n-form-item-row>
             <n-form-item-row :label="t('autoRefreshInterval')">
-                <n-slider v-model:value="configAutoRefreshInterval" :min="30" :max="300" :step="1" :marks="{
-                    60: '60', 120: '120', 180: '180', 240: '240'
+                <n-slider v-model:value="configAutoRefreshInterval" :min="10" :max="300" :step="1" :marks="{
+                    10: '10', 60: '60', 120: '120', 180: '180', 240: '240'
                 }" />
             </n-form-item-row>
             <n-form-item-row v-if="props.showUseSimpleIndex" :label="t('useSimpleIndex')">

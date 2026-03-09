@@ -1,13 +1,6 @@
 name: SMTP Proxy Server Docker Image CI
 
 on:
-  push:
-    paths:
-      - "smtp_proxy_server/**"
-    tags:
-      - "*"
-    branches:
-      - main
   workflow_dispatch:
 
 env:

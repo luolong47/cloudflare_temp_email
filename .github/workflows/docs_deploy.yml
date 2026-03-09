@@ -1,11 +1,6 @@
 name: Deploy Docs
 
 on:
-  push:
-    paths:
-      - "vitepress-docs/**"
-    tags:
-      - "*"
   workflow_dispatch:
 
 jobs:

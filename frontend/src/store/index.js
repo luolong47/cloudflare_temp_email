@@ -80,7 +80,7 @@ export const useGlobalState = createGlobalState(
         const useSideMargin = useStorage('useSideMargin', true);
         const useUTCDate = useStorage('useUTCDate', false);
         const autoRefresh = useStorage('autoRefresh', false);
-        const configAutoRefreshInterval = useStorage("configAutoRefreshInterval", 60);
+        const configAutoRefreshInterval = useStorage("configAutoRefreshInterval", 10);
         const userOpenSettings = ref({
             fetched: false,
             enable: false,

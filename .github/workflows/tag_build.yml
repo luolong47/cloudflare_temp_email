@@ -1,9 +1,8 @@
 name: Tag Build CI
 
 on:
-  push:
-    tags:
-      - "*"
+  workflow_dispatch:
+
 
 jobs:
   build-frontend:

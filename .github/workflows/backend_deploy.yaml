@@ -4,9 +4,6 @@ on:
   workflow_run:
     workflows: [Upstream Sync]
     types: [completed]
-  push:
-    tags:
-      - "*"
   workflow_dispatch:
 
 jobs:
